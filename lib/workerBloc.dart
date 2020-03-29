@@ -5,6 +5,14 @@ class WorkerBloc{
   List<Worker> _workerList = [
     Worker(1, "Shishir", 500),
     Worker(2, "Tushar", 1200),
+    Worker(3, "Shishir", 500),
+    Worker(4, "Tushar", 1200),
+    Worker(5, "Shishir", 500),
+    Worker(6, "Tushar", 1200),
+    Worker(7, "Shishir", 500),
+    Worker(8, "Tushar", 1200),
+    Worker(9, "Shishir", 500),
+    Worker(10, "Tushar", 1200),
   ];
 
   final _workerListStreamController = StreamController<List<Worker>>();
