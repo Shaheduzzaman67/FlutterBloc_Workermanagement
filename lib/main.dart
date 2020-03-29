@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Worker Management",
       theme: ThemeData(
-        primarySwatch: Colors.purple;
+        primarySwatch: Colors.purple,
       ),
       home: HomePage(),
     );
