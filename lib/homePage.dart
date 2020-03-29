@@ -63,14 +63,18 @@ class _HomePageState extends State<HomePage> {
                           child: IconButton(
                             icon: Icon(Icons.thumb_up),
                             color: Colors.greenAccent,
-                            onPressed: (){},
+                            onPressed: (){
+                              _workerBloc.workerSalaryIncrement.add(snapshot.data[index]);
+                            },
                           ),
                         ),
                         Container(
                           child: IconButton(
                             icon: Icon(Icons.thumb_down),
                             color: Colors.redAccent,
-                            onPressed: (){},
+                            onPressed: (){
+                              _workerBloc.workerSalaryDecrement.add(snapshot.data[index]);
+                            },
                           ),
                         )
                       ],
