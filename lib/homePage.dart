@@ -58,6 +58,20 @@ class _HomePageState extends State<HomePage> {
                               )
                             ],
                           ),
+                        ),
+                        Container(
+                          child: IconButton(
+                            icon: Icon(Icons.thumb_up),
+                            color: Colors.greenAccent,
+                            onPressed: (){},
+                          ),
+                        ),
+                        Container(
+                          child: IconButton(
+                            icon: Icon(Icons.thumb_down),
+                            color: Colors.redAccent,
+                            onPressed: (){},
+                          ),
                         )
                       ],
                     ),
